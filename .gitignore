@@ -1,0 +1,22 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and IDE folders
+.vscode/
+.idea/
+*.swp
+
+# Secrets and local settings — never commit these
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+.dev.vars
+
+# Logs and temporary files
+*.log
+*.tmp
